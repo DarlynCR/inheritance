@@ -5,9 +5,9 @@ public abstract class Animal {
     private String name;
     private String food;
     private int age;
-    private String breed;
+    private Object breed;
 
-    public Animal(String name, String food, int age, String breed) {
+    public Animal(String name, String food, int age, Object breed) {
         this.name = name;
         this.food = food;
         this.age = age;

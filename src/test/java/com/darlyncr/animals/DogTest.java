@@ -9,31 +9,28 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CatTest {
-    Cat cat;
+class DogTest {
+
+    Dog dog;
     private final PrintStream standardOut = System.out;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
-
-
-
     @BeforeEach
     void setUp() {
         System.setOut(new PrintStream(outputStreamCaptor));
-        cat = new Cat("Pelusa","Galletas", 15, BreedsCats.ANGORA);
-
+        dog = new Dog("Stich","Carnivoro", 15, BreedsDogs.CHIHUAHUA);
     }
 
     @AfterEach
     void tearDown() {
-        cat = null;
+        dog = null;
         System.setOut(standardOut);
     }
 
     @Test
-    void eatTest() {
+    void eat() {
 
-        cat.eat();
-        String expectedOutPut = "Cat Pelusa eats....";
+        dog.eat();
+        String expectedOutPut = "Dog Stich eats....";
         String actualOutPut = outputStreamCaptor.toString().trim();
         assertEquals(expectedOutPut, actualOutPut);
     }

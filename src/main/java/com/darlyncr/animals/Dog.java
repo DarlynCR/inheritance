@@ -2,7 +2,7 @@ package com.darlyncr.animals;
 
 public class Dog extends Animal{
 
-    public Dog(String name, String food, int age, String breed) {
+    public Dog(String name, String food, int age, BreedsDogs breed) {
         super(name, food, age, breed);
     }
 
