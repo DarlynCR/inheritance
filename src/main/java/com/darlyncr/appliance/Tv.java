@@ -20,10 +20,10 @@ public class Tv extends Appliance implements ShowPrice{
         super.createAppliance(color, energyConsumption, weight);
         this.resolution = resolution;
         this.tunerTDT = tunerTDT;
-        finalprice();
+        finalpriceTV();
     }
 
-    private void finalprice(){
+    private void finalpriceTV(){
         super.finalPrice();
 
         if ( this.tunerTDT ){
@@ -56,5 +56,15 @@ public class Tv extends Appliance implements ShowPrice{
         this.tunerTDT = tunerTDT;
     }
 
-
+    @Override
+    public String toString() {
+        return "Televisor{" +
+                " Resolución = " + resolution + " pulgadas" +
+                ", Cuenta con TDT = " + tunerTDT +
+                ", Precio = " + price + " pesos" +
+                ", Color = '" + color + '\'' +
+                ", Consumo de Energía = " + energyConsumption +
+                ", Peso = " + weight +
+                '}';
+    }
 }

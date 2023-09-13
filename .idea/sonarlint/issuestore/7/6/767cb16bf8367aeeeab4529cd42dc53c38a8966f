@@ -1,4 +1,0 @@
-
-±
-java:S1845"“Rename method "finalprice" to prevent any misunderstanding/clash with method "finalPrice" defined in superclass "com.darlyncr.appliance.Appliance".(’§ÄÀ8¨Ö²¾¦1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¼ØËëþÿÿÿÿ8¶Ö²¾¦1

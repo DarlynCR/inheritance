@@ -2,10 +2,10 @@ package com.darlyncr.appliance;
 
 public class Appliance {
 
-    private Double price;
-    private String color;
-    private EnergyConsumption energyConsumption;
-    private int weight;
+    protected Double price;
+    protected String color;
+    protected EnergyConsumption energyConsumption;
+    protected int weight;
 
     public Appliance() { }
 
@@ -136,4 +136,6 @@ public class Appliance {
     public void setWeight(int weight) {
         this.weight = weight;
     }
+
+
 }

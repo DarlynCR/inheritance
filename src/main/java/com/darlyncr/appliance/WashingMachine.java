@@ -14,10 +14,10 @@ public class WashingMachine extends Appliance implements ShowPrice{
     private void createWashingMachine(String color, EnergyConsumption energyConsumption, int weight, int charge){
         super.createAppliance(color, energyConsumption, weight);
         this.charge = charge;
-        finalprice();
+        finalpriceWM();
     }
 
-    private void finalprice(){
+    private void finalpriceWM(){
         super.finalPrice();
         if ( this.charge > 30 ){
             this.setPrice( this.getPrice() + 500 )  ;
@@ -36,5 +36,14 @@ public class WashingMachine extends Appliance implements ShowPrice{
         this.charge = charge;
     }
 
-
+    @Override
+    public String toString() {
+        return "Lavadora {" +
+                " Carga = " + charge +
+                ", Precio = " + price + " Pesos" +
+                ", Color = '" + color + '\'' +
+                ", Consumo de Energía = " + energyConsumption +
+                ", Peso = " + weight +
+                '}';
+    }
 }
