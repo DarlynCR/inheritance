@@ -1,6 +1,6 @@
 package com.darlyncr.appliance;
 
-public class Tv extends Appliance implements ShowPrice{
+public class Tv extends Appliance {
 
     private int resolution;
     private Boolean tunerTDT;

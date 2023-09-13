@@ -1,6 +1,6 @@
 package com.darlyncr.appliance;
 
-public class WashingMachine extends Appliance implements ShowPrice{
+public class WashingMachine extends Appliance{
 
     private int charge;
 

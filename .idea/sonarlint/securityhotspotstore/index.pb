@@ -15,8 +15,6 @@ k
 ;src/main/java/com/darlyncr/appliance/EnergyConsumption.java,e\b\eb3fc28682a7c2afc6ae5833084017e95cd9762f
 c
 3src/main/java/com/darlyncr/appliance/ShowPrice.java,3\a\3a4343e8db556450b6a2e66d9db51cbfbee7ba07
-c
-3src/main/java/com/darlyncr/appliance/Appliance.java,6\3\637c080806f67ab5baade09db72771cb3fcbb2ee
 V
 &src/test/resources/features/tv.feature,5\a\5a5f0f13a5599556028c2b1d6d5a6b96cd50e043
 b

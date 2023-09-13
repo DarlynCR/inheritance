@@ -17,7 +17,5 @@ c
 3src/main/java/com/darlyncr/appliance/ShowPrice.java,3\a\3a4343e8db556450b6a2e66d9db51cbfbee7ba07
 V
 &src/test/resources/features/tv.feature,5\a\5a5f0f13a5599556028c2b1d6d5a6b96cd50e043
-c
-3src/main/java/com/darlyncr/appliance/Appliance.java,6\3\637c080806f67ab5baade09db72771cb3fcbb2ee
 b
 2src/test/resources/features/wachingmachine.feature,8\8\887937188f33f259ad5412528c52d015a050d731

@@ -1,6 +1,6 @@
 package com.darlyncr.appliance;
 
-public class Appliance {
+public class Appliance implements ShowPrice{
 
     protected Double price;
     protected String color;
@@ -138,4 +138,7 @@ public class Appliance {
     }
 
 
+    @Override
+    public void showFinalPrice() {
+    }
 }
